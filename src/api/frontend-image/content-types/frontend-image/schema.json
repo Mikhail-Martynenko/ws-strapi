@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "frontend_images",
+  "info": {
+    "singularName": "frontend-image",
+    "pluralName": "frontend-images",
+    "displayName": "frontendImage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

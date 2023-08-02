@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "workingwithuses",
+  "info": {
+    "singularName": "workingwithus",
+    "pluralName": "workingwithuses",
+    "displayName": "working with us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

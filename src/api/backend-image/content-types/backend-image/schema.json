@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "backend_images",
+  "info": {
+    "singularName": "backend-image",
+    "pluralName": "backend-images",
+    "displayName": "BackendImage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "languageProg": {
+      "type": "string"
+    }
+  }
+}
